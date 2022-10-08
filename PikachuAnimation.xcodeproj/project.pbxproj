@@ -11,6 +11,7 @@
 		E9DFFF9428F22A70009C062B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DFFF9328F22A70009C062B /* ContentView.swift */; };
 		E9DFFF9628F22A71009C062B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9DFFF9528F22A71009C062B /* Assets.xcassets */; };
 		E9DFFF9928F22A71009C062B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9DFFF9828F22A71009C062B /* Preview Assets.xcassets */; };
+		E9DFFFA028F22AE7009C062B /* PikachuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DFFF9F28F22AE7009C062B /* PikachuView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,8 @@
 		E9DFFF9328F22A70009C062B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E9DFFF9528F22A71009C062B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E9DFFF9828F22A71009C062B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E9DFFF9F28F22AE7009C062B /* PikachuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PikachuView.swift; sourceTree = "<group>"; };
+		E9DFFFA128F23026009C062B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +54,10 @@
 		E9DFFF9028F22A70009C062B /* PikachuAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				E9DFFFA128F23026009C062B /* Info.plist */,
 				E9DFFF9128F22A70009C062B /* PikachuAnimationApp.swift */,
 				E9DFFF9328F22A70009C062B /* ContentView.swift */,
+				E9DFFF9F28F22AE7009C062B /* PikachuView.swift */,
 				E9DFFF9528F22A71009C062B /* Assets.xcassets */,
 				E9DFFF9728F22A71009C062B /* Preview Content */,
 			);
@@ -138,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E9DFFF9428F22A70009C062B /* ContentView.swift in Sources */,
+				E9DFFFA028F22AE7009C062B /* PikachuView.swift in Sources */,
 				E9DFFF9228F22A70009C062B /* PikachuAnimationApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,6 +276,7 @@
 				DEVELOPMENT_TEAM = G4T7QK2U75;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PikachuAnimation/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +306,7 @@
 				DEVELOPMENT_TEAM = G4T7QK2U75;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PikachuAnimation/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
