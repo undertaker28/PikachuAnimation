@@ -23,7 +23,7 @@ struct PikachuView: View {
                     .foregroundColor(Color("FontColor"))
                 
                 ZStack{
-                    // MARK:- Tail
+                    // MARK: - Tail
                     Image("Tail")
                         .resizable()
                         .frame(width: 300, height: 300, alignment: .center)
@@ -36,13 +36,13 @@ struct PikachuView: View {
                             self.tail.toggle()
                         }
                     
-                    //MARK:- Body: close eyes
+                    //MARK: - Body: close eyes
                     Image("Position1")
                         .resizable()
                         .frame(width: 350, height: 350, alignment: .center)
                         .shadow(color: .yellow, radius: 0.5, x: 0.0, y: 0.0)
                     
-                    //MARK:- Body: open eyes
+                    //MARK: - Body: open eyes
                     Image("Position2")
                         .resizable()
                         .frame(width: 350, height: 350, alignment: .center)
@@ -53,7 +53,7 @@ struct PikachuView: View {
                             self.visibilityOpacity.toggle()
                         }
                     
-                    //MARK:- Shock
+                    //MARK: - Shock
                     Image("ShockLeft")
                         .resizable()
                         .frame(width: 350, height: 350)
